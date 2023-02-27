@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BattleShipGame", "BattleShipGame\BattleShipGame.vcxproj", "{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BattleShipTest", "BattleShipTest\BattleShipTest.vcxproj", "{988767CA-71BA-458E-BAEB-755DAE21AFFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Debug|x64.ActiveCfg = Debug|x64
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Debug|x64.Build.0 = Debug|x64
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Debug|x86.Build.0 = Debug|Win32
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Release|x64.ActiveCfg = Release|x64
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Release|x64.Build.0 = Release|x64
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Release|x86.ActiveCfg = Release|Win32
+		{A6EBA3C9-A48E-4C32-BE56-CF3757CF11B8}.Release|x86.Build.0 = Release|Win32
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Debug|x64.ActiveCfg = Debug|x64
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Debug|x64.Build.0 = Debug|x64
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Release|x64.ActiveCfg = Release|x64
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Release|x64.Build.0 = Release|x64
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Release|x86.ActiveCfg = Release|Win32
+		{988767CA-71BA-458E-BAEB-755DAE21AFFC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02671EDF-F38C-48D8-BB0C-77612632564E}
+	EndGlobalSection
+EndGlobal
