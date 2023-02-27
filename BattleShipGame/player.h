@@ -19,11 +19,6 @@ public:
 		chanceGenerationStrategy = _chanceGenerationStrategy;
 	}
 
-	Player(const Player& p) {
-		playerId = p.playerId;
-		board = p.board;
-		chanceGenerationStrategy = p.chanceGenerationStrategy;
-	}
 
 	Board* getBoard() const {
 		return board;

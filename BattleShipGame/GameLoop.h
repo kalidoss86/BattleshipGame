@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <sstream>
 #include "player.h"
 #include "IOutputPrinter.h"
 #include "IWinnerStrategy.h"
@@ -26,7 +27,9 @@ public:
 		printer->PrintMsg("Starting game!");
 		while (true) {
 			Player *currentPlayer = players[currentPlayerIndex];
-			//printer->PrintMsg("\n\nPlayer: " + currentPlayer.getPlayerId() + " chance:");
+			std::stringstream message;
+			message << "Player " << currentPlayer->getPlayerId() << "chance: " << std::endl;
+			printer->PrintMsg(message.str());
 			PlayerChanceTarget playerChanceTarget = currentPlayer->takeChance(this->players);
 
 			try {

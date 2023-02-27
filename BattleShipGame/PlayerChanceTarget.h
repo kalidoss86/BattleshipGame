@@ -14,10 +14,6 @@ public:
 		this->target = _target;
 	};
 
-	PlayerChanceTarget(const PlayerChanceTarget& playerChanceTarget) {
-		player = playerChanceTarget.player;
-		target = playerChanceTarget.target;
-	}
 
 	Player* getTargetPlayer() const {
 		return player;

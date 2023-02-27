@@ -11,7 +11,8 @@ Player* DefaultWinnerStrategy::getWinner(const std::vector<Player*> playerList) 
 		return alivePlayers.at(0) ;
 	}
 	else {
-		throw std::exception("No Winner found", 1);
+		//throw std::exception("No Winner found", 1);
+		playerList.at(0);
 	}
 	
 }
